@@ -1,0 +1,26 @@
+name:                PBP
+version:             0.1.0.0
+license:             MIT
+license-file:        LICENSE
+author:              Matthías Páll Gissurarson, Koen Claessen
+maintainer:          pallm@chalmers.se
+-- copyright:
+-- category:
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:    PBP
+  -- other-modules:
+  build-depends: base, QuickCheck, mtl, containers, aeson, bytestring
+  -- hs-source-dirs:
+  default-language:    Haskell2010
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
