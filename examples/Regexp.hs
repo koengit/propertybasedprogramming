@@ -14,6 +14,8 @@ data E a
   | Nil
  deriving ( Eq, Ord, Show )
 
+-- ASK: any of these right-hand sides
+
 (.>), (.+) :: E a -> E a -> E a
 Nil .> q   = Nil
 p   .> Nil = Nil
